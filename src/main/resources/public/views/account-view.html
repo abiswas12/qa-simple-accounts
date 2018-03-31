@@ -1,0 +1,23 @@
+<div class="container pad-top">
+  <table class="table accounttable">
+      <tr>
+          <td><h3>Details for {{account.accountNo}}</h3></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Account No</td>
+          <td>{{account.accountNo}}</td>
+      </tr>
+      <tr>
+          <td>First Name</td>
+          <td>{{account.firstName}}</td>
+      </tr>
+      <tr>
+          <td>Last Name</td>
+          <td>{{account.lastName}}</td>
+      </tr>
+  </table>
+  <div>
+      <a class="btn btn-primary" ui-sref="editAccount({id:account.id})">Edit</a>
+  </div>
+</div>
