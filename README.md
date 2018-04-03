@@ -1,6 +1,6 @@
-# QaExerciseAngular
+# QaExerciseAccounts
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+This project was heavily inspired by Dan Bunker's Das Boot Application 
 
 ## Running Exercise Accounts Application
 
